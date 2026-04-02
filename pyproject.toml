@@ -1,3 +1,21 @@
+[build-system]
+requires = ["setuptools"]
+
+[project]
+name = "superdesk-analytics"
+version = "3.2.0-dev.0"
+authors = [ {name = "Sourcefabric", email = "contact@sourcefabric.org"} ]
+readme = "README.md"
+license = "MIT"
+dependencies = [
+
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["server"]
+exclude = ["client", "spec"]
+
 [tool.black]
 line-length = 120
 target-version = ['py38']

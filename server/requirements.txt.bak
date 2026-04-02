@@ -1,0 +1,16 @@
+pep8
+flake8
+flake8-docstrings
+wooper
+requests
+requests-mock
+coverage==4.3.4
+coveralls
+httmock==1.4.0
+responses
+pytest
+pytest-env
+aioresponses==0.7.8
+
+-e git+https://github.com/bmg1919/superdesk-core.git@develop#egg=Superdesk-Core
+-e git+https://github.com/bmg1919/superdesk-planning.git@develop#egg=superdesk-planning
