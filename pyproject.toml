@@ -19,8 +19,6 @@ analytics = ["scripts/*.sh"]
 
 [tool.setuptools.packages.find]
 where = ["server"]
-include = ["server"]
-exclude = ["client", "spec"]
 
 [tool.black]
 line-length = 120
