@@ -11,8 +11,14 @@ dependencies = [
 
 ]
 
+[tool.setuptools]
+package-dir = {"" = "server"}
+
+[tool.setuptools.package-data]
+analytics = ["scripts/*.sh"]
+
 [tool.setuptools.packages.find]
-where = ["."]
+where = ["server"]
 include = ["server"]
 exclude = ["client", "spec"]
 
